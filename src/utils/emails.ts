@@ -1,0 +1,50 @@
+export type EmailDataProps = (typeof EMAILS)[0]
+
+export const EMAILS = [
+    {
+        id: "1",
+        name: "Mike",
+        avatar: "https://mighty.tools/mockmind-api/content/cartoon/31.jpg",
+        marker: "importante",
+        subject: "What is Lorem Ipsum?",
+        message: "Lorem Ipsum é simplesmente uma simulação de texto da indústria",
+        start: false,
+        date: "12 fev.",
+    },
+    {
+        id: "2",
+        name: "Andy",
+        avatar: "https://mighty.tools/mockmind-api/content/cartoon/9.jpg",
+        subject: "De onde ele vem?",
+        message: "Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC.",
+        start: true,
+        date: "12 fev.",
+    },
+    {
+        id: "3",
+        name: "Georgia",
+        avatar: "https://mighty.tools/mockmind-api/content/cartoon/29.jpg",
+        subject: "Porque nós o usamos?",
+        message: "É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. ",
+        start: true,
+        date: "12 fev.",
+    },
+    {
+        id: "4",
+        name: "Bianca",
+        avatar: "https://mighty.tools/mockmind-api/content/cartoon/23.jpg",
+        subject: "Onde posso conseguí-lo?",
+        message: "Existem muitas variações disponíveis de passagens de Lorem Ipsum",
+        start: false,
+        date: "13 fev.",
+    },
+    {
+        id: "5",
+        name: "Nic",
+        avatar: "https://mighty.tools/mockmind-api/content/cartoon/11.jpg",
+        subject: "Lorem Ipsum",
+        message: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        start: false,
+        date: "14 fev.",
+    },
+]
